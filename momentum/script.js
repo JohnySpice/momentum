@@ -197,7 +197,6 @@
   }
 
   function setWeather(weatherData) {
-    console.log(weatherData);
     weatherIcon.style.backgroundImage = `URL(http://openweathermap.org/img/wn/${weatherData.weather[0].icon}.png)`;
     weatherTemperature.innerHTML = "Temperature: " + weatherData.main.temp + "&#8451;";
     airHumidity.innerHTML = "Humidity: " + weatherData.main.humidity + "%";
