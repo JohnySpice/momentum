@@ -1,2 +1,3 @@
-# johnyspice-JS2020Q3
-Private repository for @johnyspice
+Copy of momentum app.
+Name, focus and city save in localstorage/
+Deployment: https://johnyspice.github.io/momentum/momentum/
